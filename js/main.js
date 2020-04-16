@@ -52,7 +52,11 @@ $(document).ready(function (){
       }
       
     }
-    
+  });
+
+  // aggiunta metodo toggle sulla classe completed
+  $('body').on('click','.todo li', function (){
+    $(this).toggleClass('completed');
   });
 
 }); /* END DOC READY */
