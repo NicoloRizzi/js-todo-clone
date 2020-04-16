@@ -11,10 +11,10 @@ $(document).ready(function (){
   ];
 
   // referenza alla lista
-  var list = $('.todo')
+  var list = $('.todo');
 
   // referenza sull'input
-  var newInput = $('input.add-element')
+  var newInput = $('input.add-element');
 
   // ITERO NELL'ARRAY PER LEGGERE OGNI ELEMENTO
   for(var i=0; i < todoItems.length; i++) {
